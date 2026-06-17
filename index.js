@@ -10,7 +10,7 @@ import cors from 'cors';
 const app = express();
 
 app.use(express.json());
-app.use(cors({ origin: "https://syedmuneer07.github.io/EmployeeManager/" }));
+app.use(cors({ origin: "https://syedmuneer07.github.io" }));
 app.use(router);
 
 const PORT = process.env.PORT || 5000;
