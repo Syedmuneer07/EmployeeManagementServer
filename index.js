@@ -15,6 +15,9 @@ app.use(router);
 
 const PORT = process.env.PORT || 5000;
 
+app.get("/", (req, res) => {
+    res.send("Employee Management Server is Running");
+});
 
 
 app.listen(PORT, async () => {
